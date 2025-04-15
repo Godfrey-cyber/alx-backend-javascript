@@ -3,6 +3,9 @@ import getFullResponseFromAPI from './1-promise';
 import handleProfileSignup from "./3-all";
 import signUpUser from "./4-user-promise";
 
+console.log(getFullResponseFromAPI(true));
+console.log(getFullResponseFromAPI(false));
+
 console.log(signUpUser("Bob", "Dylan"));
 
 handleProfileSignup();
