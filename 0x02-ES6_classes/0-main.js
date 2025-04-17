@@ -1,5 +1,5 @@
 import ClassRoom from "./0-classroom.js";
-import initializeRooms from './1-make_classroom.js';
+import initializeRooms from './1-make_classrooms.js';
 import Car from "./10-car.js";
 import EVCar from './100-evcar.js';
 import HolbertonCourse from "./2-hbtn_course.js";
